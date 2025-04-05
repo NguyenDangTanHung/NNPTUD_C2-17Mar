@@ -2,8 +2,11 @@ var express = require('express');
 var router = express.Router();
 let userController = require('../controllers/users');
 const { check_authentication } = require('../Utils/check_auth');
+<<<<<<< HEAD
 let crypto = require('crypto')
 let mailMiddleware = require('../Utils/sendMail')
+=======
+>>>>>>> 48d098df68c7c943470ec4fab3e8c639c2fd98d7
 
 router.post('/signup', async function(req, res, next) {
     try {
@@ -47,6 +50,7 @@ router.get('/me',check_authentication, async function(req, res, next){
         next();
     }
 })
+<<<<<<< HEAD
 router.post('/forgotpasswood',async function(req,res,next){
   let body = req.body;
   let email = body.email;
@@ -76,4 +80,6 @@ router.post('/changepasswordforgot/:token',async function(req,res,next){
   }
 })
 
+=======
+>>>>>>> 48d098df68c7c943470ec4fab3e8c639c2fd98d7
 module.exports = router

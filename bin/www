@@ -5,14 +5,22 @@
  */
 
 var app = require('../app');
+<<<<<<< HEAD
 var debug = require('debug')('cdn-server:server');
+=======
+var debug = require('debug')('c2:server');
+>>>>>>> 48d098df68c7c943470ec4fab3e8c639c2fd98d7
 var http = require('http');
 
 /**
  * Get port from environment and store in Express.
  */
 
+<<<<<<< HEAD
 var port = normalizePort(process.env.PORT || '4000');
+=======
+var port = normalizePort(process.env.PORT || '3000');
+>>>>>>> 48d098df68c7c943470ec4fab3e8c639c2fd98d7
 app.set('port', port);
 
 /**

@@ -12,13 +12,9 @@ const userSchema = new mongoose.Schema({
     role:{
         type:mongoose.Types.ObjectId,
         ref:'role'
-<<<<<<< HEAD
     },
     resetPasswordToken:String,
     resetPasswordTokenExp:Date
-=======
-    }
->>>>>>> 48d098df68c7c943470ec4fab3e8c639c2fd98d7
   },{
     timestamps:true
 });

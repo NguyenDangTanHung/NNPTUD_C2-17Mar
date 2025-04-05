@@ -6,28 +6,19 @@
     "start": "nodemon ./bin/www"
   },
   "dependencies": {
-<<<<<<< HEAD
     "axios": "^1.8.4",
-=======
->>>>>>> 48d098df68c7c943470ec4fab3e8c639c2fd98d7
     "bcrypt": "^5.1.1",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
-<<<<<<< HEAD
     "express-validator": "^7.2.1",
     "form-data": "^4.0.2",
-=======
->>>>>>> 48d098df68c7c943470ec4fab3e8c639c2fd98d7
     "http-errors": "~1.6.3",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.12.1",
     "morgan": "~1.9.1",
-<<<<<<< HEAD
     "multer": "^1.4.5-lts.2",
     "nodemailer": "^6.10.0",
-=======
->>>>>>> 48d098df68c7c943470ec4fab3e8c639c2fd98d7
     "nodemon": "^3.1.9",
     "pug": "2.0.0-beta11"
   }
